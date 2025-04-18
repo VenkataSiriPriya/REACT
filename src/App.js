@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Test1 from './Test1';
+import Test2 from './components/Test2';
+import Test3 from './components/Test3';
+import './sample.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Test1 />
+    <Test2 />
+    <Test3/>
+    <h1>
+      Hello this is example testing
+    </h1>
     </div>
   );
 }
 
 export default App;
+
